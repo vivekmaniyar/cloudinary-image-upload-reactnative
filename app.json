@@ -28,6 +28,14 @@
     },
     "web": {
       "favicon": "./assets/favicon.png"
-    }
+    },
+    "plugins":[
+      [
+        "expo-image-picker",
+        {
+          "photosPermission":"Th app accesses your photo library and uploads it to your Cloudinary account. You can change the permissions in the settings."
+        }
+      ]
+    ]
   }
 }
